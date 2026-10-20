@@ -571,8 +571,8 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     </div>
 
     <div class="f-act">
-      <button id="b-link" class="alt" hidden>Chia sẻ</button>
-      <button id="b-replay" class="alt">Xem lại</button>
+      <button id="b-link" class="alt" hidden>chép link</button>
+      <button id="b-replay" class="alt">xem lại</button>
     </div>
   </div></section>
 

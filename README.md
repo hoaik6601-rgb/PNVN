@@ -479,10 +479,10 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
   </div></section>
 
   <section class="scene" id="sc-unseen"><div class="cards">
-    <div class="card rv" id="c1"><span class="ic">☀</span><span>dậy sớm hơn cả nhà để lo bữa sáng</span></div>
-    <div class="card rv" id="c2"><span class="ic">✿</span><span>nhớ mọi sinh nhật, mọi lời dặn, mọi chuyện nhỏ của người thân</span></div>
-    <div class="card rv" id="c3"><span class="ic">☾</span><span>nói “mình ổn” dù đôi khi đã rất mệt</span></div>
-    <div class="card rv" id="c4"><span class="ic">✦</span><span>vừa lo cho người khác, vừa cố giữ ước mơ của riêng mình</span></div>
+    <div class="card rv" id="c1"><span class="ic">☀</span><span>Mang lại năng lượng tích cực và sự ấm áp cho mọi người mỗi ngày</span></div>
+    <div class="card rv" id="c2"><span class="ic">✿</span><span>Luôn dịu dàng, chu đáo và biết ơn trong từng việc nhỏ ở gia đình lẫn Hội Thánh</span></div>
+    <div class="card rv" id="c3"><span class="ic">☾</span><span>Giữ vững lòng tin yêu và sự khiêm nhường ngay cả khi đối diện với những thử thách trong cuộc sống</span></div>
+    <div class="card rv" id="c4"><span class="ic">✦</span><span>Âm thầm cầu thay, chia sẻ và nâng đỡ những người xung quanh</span></div>
   </div></section>
 
   <section class="scene" id="sc-health"><div class="health">
@@ -496,21 +496,20 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
 
   <section class="scene" id="sc-peace"><div class="pond">
     <svg viewBox="0 0 300 210">
-      <defs><radialGradient id="moonG"><stop offset="0" stop-color="#fffdf2"/><stop offset="1" stop-color="#ffe9b5"/></radialGradient>
-      <linearGradient id="lotG" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ff8fbd"/><stop offset="1" stop-color="#fff0f7"/></linearGradient></defs>
-      <circle cx="245" cy="34" r="30" fill="rgba(255,235,190,.16)"/><circle cx="245" cy="34" r="16" fill="url(#moonG)"/>
-      <ellipse cx="150" cy="158" rx="140" ry="40" fill="rgba(120,180,230,.10)" stroke="rgba(190,230,255,.25)"/>
-      <ellipse class="ring" cx="150" cy="158" rx="110" ry="28" style="animation-delay:0s"/>
-      <ellipse class="ring" cx="150" cy="158" rx="110" ry="28" style="animation-delay:1.6s"/>
-      <ellipse class="ring" cx="150" cy="158" rx="110" ry="28" style="animation-delay:3.2s"/>
-      <ellipse cx="68" cy="170" rx="30" ry="8" fill="#3fae93" opacity=".75"/><ellipse cx="238" cy="150" rx="26" ry="7" fill="#3fae93" opacity=".7"/>
-      <g class="lotus">
-        <path d="M150 160 C108 150 100 112 150 90 C200 112 192 150 150 160Z" fill="url(#lotG)" opacity=".5" transform="rotate(-38 150 160)"/>
-        <path d="M150 160 C108 150 100 112 150 90 C200 112 192 150 150 160Z" fill="url(#lotG)" opacity=".5" transform="rotate(38 150 160)"/>
-        <path d="M150 160 C112 148 108 108 150 84 C192 108 188 148 150 160Z" fill="url(#lotG)" opacity=".8" transform="rotate(-18 150 160)"/>
-        <path d="M150 160 C112 148 108 108 150 84 C192 108 188 148 150 160Z" fill="url(#lotG)" opacity=".8" transform="rotate(18 150 160)"/>
-        <path d="M150 162 C118 150 120 104 150 78 C180 104 182 150 150 162Z" fill="url(#lotG)" stroke="#fff" stroke-opacity=".6"/>
-        <circle cx="150" cy="152" r="4" fill="#ffe28a"/>
+      <defs>
+        <linearGradient id="boxG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd0e6"/><stop offset="1" stop-color="#ff6fa5"/></linearGradient>
+      </defs>
+      <ellipse class="ring" cx="150" cy="135" rx="65" ry="22" style="animation-delay:0s"/>
+      <ellipse class="ring" cx="150" cy="135" rx="65" ry="22" style="animation-delay:2s"/>
+      <g class="lotus" style="transform-origin: 150px 115px;">
+        <!-- Thân hộp quà -->
+        <rect x="110" y="90" width="80" height="50" rx="6" fill="url(#boxG)" stroke="#fff" stroke-opacity=".8" stroke-width="1.5"/>
+        <path d="M110 115 H190" stroke="#ffd98a" stroke-width="4"/>
+        <rect x="105" y="76" width="90" height="18" rx="4" fill="#ff8fbd" stroke="#fff" stroke-opacity=".8" stroke-width="1.5"/>
+        <!-- Dải ruy băng nơ trên hộp -->
+        <path d="M150 76 V52 C140 42 125 48 135 62 C142 70 150 76 150 76 Z" fill="#ffd98a" stroke="#fff" stroke-opacity=".7" stroke-width="1"/>
+        <path d="M150 76 V52 C160 42 175 48 165 62 C158 70 150 76 150 76 Z" fill="#ffd98a" stroke="#fff" stroke-opacity=".7" stroke-width="1"/>
+        <circle cx="150" cy="74" r="5" fill="#fff"/>
       </g>
     </svg>
   </div></section>
@@ -566,6 +565,11 @@ button{touch-action:manipulation;-webkit-appearance:none;appearance:none}
     <div class="f-date">20 · 10</div>
     <p class="f-to" id="f-to">gửi người phụ nữ tuyệt vời</p>
     <p class="f-msg">mong mỗi ngày của cậu đều có hoa, có nắng, có tiếng cười — và có người nhớ đến cậu thật nhiều.</p>
+    <div style="margin-top: 10px; padding: 8px 12px; background: rgba(255,122,184,0.08); border-left: 2px solid var(--pink); border-radius: 4px; text-align: left;">
+      <p style="font-size: clamp(11px, 3vw, 13.5px); line-height: 1.4; color: #ffd9ec; font-style: italic;">“Hãy trang điểm con người bề trong thầm kín bằng vẻ đẹp không phai tàn của tinh thần dịu dàng, yên lặng; đó là điều quý giá trước mặt Đức Chúa Trời.”</p>
+      <p style="font-size: clamp(10px, 2.5vw, 12px); color: var(--gold); text-align: right; margin-top: 4px;">— 1 Phi-e-rơ 3:4 —</p>
+    </div>
+
     <div class="f-act">
       <button id="b-link" class="alt" hidden>chép link</button>
       <button id="b-replay" class="alt">xem lại</button>
@@ -631,7 +635,7 @@ const S=[
  {say:'từ Hai Bà Trưng, Bà Triệu thuở dựng nước, đến những người con gái kiên cường của thế kỷ XX', bars:2.4, mood:'talk', reveal:['n3','l3','e23','n4','l4','e24','n5','l5','e35','e45']},
  {say:'và còn những người không có tên trong sách: bà, mẹ, chị, cô giáo… và cả <em>cậu</em> nữa', bars:2.4, mood:'happy', reveal:['n6','l6','e46','e56'], fx:{meteor:2.2,petals:.3}},
 
- {scene:'unseen', say:'có những điều mà cậu vẫn lặng lẽ làm mỗi ngày…', bars:2, mood:'talk', bg:2, fx:{petals:.2}},
+ {scene:'unseen', say:'có những điều mà <em>cậu</em> vẫn lặng lẽ làm mỗi ngày…', bars:2, mood:'talk', bg:2, fx:{petals:.2}},
  {say:'', bars:1.15, reveal:['c1']},
  {say:'', bars:1.15, reveal:['c2']},
  {say:'', bars:1.15, reveal:['c3']},
@@ -640,8 +644,8 @@ const S=[
  {scene:'none', mode:'hero', say:'nên hôm nay, đến lượt <em>cậu</em> được quan tâm', bars:2, mood:'happy', fx:{petals:1.1}},
 
  {say:'tớ xin gửi cậu bốn lời chúc nhé', bars:1.5, mood:'wave', bg:2},
- {scene:'health', mode:'side', say:'chúc cậu thật nhiều <em>sức khỏe</em> — để có  đi hết những nơi cậu muốn đến', bars:2.4, mood:'talk', bg:1, fx:{meteor:.6}},
- {scene:'peace', say:'chúc cậu <em>luôn ngập tràn ơn phước</em>và <em>niềm vui</em> trên mỗi bước đường đi cùng Ngài ', bars:2.2, mood:'talk', bg:1},
+ {scene:'health', mode:'side', say:'chúc cậu thật nhiều <em>sức khỏe</em> — để có thể đi hết những nơi cậu muốn đến', bars:2.4, mood:'talk', bg:1, fx:{meteor:.6}},
+ {scene:'peace', say:'chúc cậu <em>luôn ngập tràn ơn phước </em>và <em>niềm vui</em> trên mỗi bước đường đi cùng Ngài ', bars:2.2, mood:'talk', bg:1},
  {scene:'free', say:'chúc cậu đủ <em>tự do</em> để làm điều mình thích, và đủ dũng cảm để theo đuổi nó', bars:2.5, mood:'talk', bg:0, fx:{lantern:1,meteor:.8}},
  {scene:'love', say:'chúc cậu luôn được <em>yêu thương</em> — đúng cách, đúng người, và cả bởi chính cậu', bars:2.5, mood:'happy', bg:2, fx:{hearts:1,petals:.3}},
 
